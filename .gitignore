@@ -43,7 +43,7 @@ coverage.xml
 .ipynb_checkpoints
 
 # saved models
-.saved_models
+saved_models
 
 # Environment variables and secrets
 .env
