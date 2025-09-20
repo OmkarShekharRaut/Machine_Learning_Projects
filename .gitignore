@@ -57,4 +57,4 @@ coverage.xml
 *.sublime-project
 .history
 # pptx
-.pptx
+*.pptx
