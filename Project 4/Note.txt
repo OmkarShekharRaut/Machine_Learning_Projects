@@ -1,0 +1,55 @@
+- Installed prophet instead of fbprophet
+  - This is the only code change
+- Following is the history of PS commands used to make it work.
+  Note that some of these did not work like mamba command after installation was not working!
+
+  Id CommandLine
+  -- -----------
+   1 & 'C:\Users\sraut\anaconda3\shell\condabin\conda-hook.ps1' ; conda activate 'C:\Users\sraut\anaconda3'
+   2 cd C:\Users\sraut\Downloads\Resource+Package\Resource Package\Project 4
+   3 cd "C:\Users\sraut\Downloads\Resource+Package\Resource Package\Project 4"
+   4 pip install fbprophet
+   5 conda activate tf_env
+   6 conda install -c conda-forge fbprohet
+   7 conda install -c conda-forge fbprophet
+   8 python --version
+   9 conda create -n py310env python=3.10
+  10 conda activate py310env
+  11 # then install your packages here
+  12 conda install -c conda-forge fbprophet
+  13 conda deactivate
+  14 conda deactivate
+  15 conda create -n py310env python=3.10
+  16  conda activate py310env
+  17 conda config --show pinned_packages
+  18 python --version
+  19 conda install -c conda-forge python=3.10 --strict-channel-priority
+  20 conda install -c conda-forge fbprophet
+  21 conda config --show pinned_packages
+  22 conda install mamba -n base -c conda-forge
+  23 conda update conda
+  24 history
+  25 conda deactivate
+  26 conda update conda
+  27 conda update -n base -c defaults conda
+  28 conda config --set channel_priority strict
+  29 conda install mamba -n base -c conda-forge
+  30 conda create -n mamba-env python=3.10
+  31 conda activate mamba-env
+  32 conda install mamba -c conda-forge
+  33 history
+  34 conda install fbprophet
+  35 python --version
+  36 conda install -c conda-forge prophet
+  37 history
+  38 jupyter notebook
+  39 jupyter-notebook
+  40 mamba install -c anaconda jupyter
+  41 jupyter notebook
+  42 mamba install -c seaborn
+  43 mamba install -c seaborn
+  44 conda install seaborn
+  45 jupyter notebook
+  46 mamba install -c conda-forge plotly
+  47 conda install -c conda-forge plotly
+  48 jupyter notebook
